@@ -1,0 +1,4 @@
+# github.com/mohammadallameh/go-first-work-db/server
+.\server.go:64:3: not enough arguments in call to dbclient.Model(&user).Transaction
+	have ()
+	want (func(tx *gorm.DB) error, ...*sql.TxOptions)
